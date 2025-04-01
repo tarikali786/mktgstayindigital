@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Users, BookOpen, BarChart2 } from "lucide-react";
 import { aboutData } from "@/app/data";
-import Img1 from "../../../public/1i.jpg";
+import Img1 from "../../../public/1I.jpg";
 // Map for dynamic icon rendering
 const iconMap = {
   Users: Users,
