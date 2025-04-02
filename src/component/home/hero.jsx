@@ -1,7 +1,7 @@
 import ButtonCard from "../ui/button";
 import { TypeAnimation } from "react-type-animation";
 
-export default function Hero() {
+export default function Hero({ scrollToSection }) {
   return (
     <div className="relative min-h-[50vh] hero-section md:py-0 sm:py-4 py-8 md:min-h-[60vh] lg:h-[84vh] w-full overflow-hidden flex justify-center items-center">
       {/* Gradient Overlay */}
@@ -53,7 +53,7 @@ export default function Hero() {
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mt-8">
-            <ButtonCard />
+            <ButtonCard onClick={() => scrollToSection("contact")} />
           </div>
         </div>
       </div>

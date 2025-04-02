@@ -48,7 +48,7 @@ export default function Home() {
 
       <main>
         <div ref={homeRef}>
-          <Hero />
+          <Hero scrollToSection={scrollToSection} />
         </div>
 
         <div ref={aboutRef}>

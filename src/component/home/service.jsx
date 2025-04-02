@@ -1,5 +1,7 @@
 import { Globe, BarChart2, Code, Mail, Database, Cpu } from "lucide-react";
 import { servicesData } from "@/app/data";
+import Image from "next/image";
+import Link from "next/link";
 
 // Map for dynamic icon rendering
 const iconMap = {
@@ -25,17 +27,16 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {servicesData.services.map((service, index) => {
-            const IconComponent = iconMap[service.icon];
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          {servicesData?.services?.map((service, index) => {
             return (
               <div
                 key={index}
                 className="border-none shadow-md hover:shadow-xl transition-shadow rounded-2xl"
               >
                 <div className="p-6 text-center">
-                  <div className="bg-blue-50 p-4 rounded-full inline-block mb-4">
-                    <IconComponent className="h-10 w-10 text-blue-600" />
+                  <div className="bg-blue-50 size-16 rounded-full inline-block mb-4 relative">
+                    <Image src={service.icon} className=" object-fill" fill />
                   </div>
                   <h3 className="text-xl font-bold mb-2 text-black/80">
                     {service.title}
@@ -46,6 +47,15 @@ export default function Services() {
             );
           })}
         </div>
+      </div>
+      <div className="flex items-center justify-center mt-10">
+        <Link
+          href={"https://stayindigital.netlify.app/services"}
+          className="bg-gradient-to-r from-[#103ce7] to-[#64e9ff] px-4 py-3 rounded-xl"
+        >
+          {" "}
+          Learn More
+        </Link>
       </div>
     </section>
   );

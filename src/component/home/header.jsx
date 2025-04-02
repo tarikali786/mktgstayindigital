@@ -2,15 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import {
-  Facebook,
-  Instagram,
-  Twitter,
-  Mail,
-  Phone,
-  ArrowRight,
-} from "lucide-react";
+
 import Logo from "../../../public/logo.png";
 import { navLinks } from "@/app/data";
 import Navbar from "./navbar";
@@ -65,8 +57,8 @@ export default function Header({ scrollToSection }) {
               </button>
             ))}
           </nav>
-       
-          <ButtonCard/>
+
+          <ButtonCard onClick={() => scrollToSection("contact")} />
         </div>
       </header>
     </>

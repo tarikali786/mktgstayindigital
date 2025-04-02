@@ -76,7 +76,7 @@ export default function Contact() {
                   className="border text-black/80 rounded p-2 w-full"
                 />
               </div>
-              <button className="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded-2xl">
+              <button className="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded">
                 Send Message
               </button>
             </form>

@@ -30,7 +30,9 @@ export default function Courses() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-black">{course.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-black">
+                  {course.title}
+                </h3>
                 <div className="flex justify-between mb-3 text-sm text-gray-600">
                   <span>{course.duration}</span>
                   <span>{course.level}</span>
@@ -38,7 +40,7 @@ export default function Courses() {
                 <p className="text-gray-600 mb-4">{course.description}</p>
                 <Link
                   href={"#"}
-                  className="w-full bg-blue-600 hover:bg-blue-700 px-4 py-2.5 rounded-xl"
+                  className="w-full bg-gradient-to-r from-[#103ce7] to-[#64e9ff] px-4 py-2.5 rounded-xl"
                 >
                   Learn More
                 </Link>
@@ -46,6 +48,15 @@ export default function Courses() {
             </div>
           ))}
         </div>
+      </div>
+      <div className="flex items-center justify-center mt-10">
+        <Link
+          href={"https://stayindigital.netlify.app/courses"}
+          className="bg-gradient-to-r from-[#103ce7] to-[#64e9ff] px-4 py-3 rounded-xl"
+        >
+          {" "}
+          Learn More
+        </Link>
       </div>
     </section>
   );

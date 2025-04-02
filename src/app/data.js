@@ -19,13 +19,32 @@ import Mongo from "../../public/technology/17.jpeg";
 import Azure from "../../public/technology/18.jpeg";
 import AWS from "../../public/technology/16.jpeg";
 
+import Icon1 from "../../public/icon1.png";
+import Icon2 from "../../public/icon2.png";
+import Icon3 from "../../public/icon3.png";
+import Icon4 from "../../public/icon4.png";
+
+// Cources
+
+import SMM1 from "../../public/cource/social-media-management.jpg";
+import SEO1A1 from "../../public/cource/search-engine-optimization.jpg";
+import AI1 from "../../public/cource/artificial-intelligence.jpg";
+import WD1 from "../../public/cource/website-development.jpg";
+import GDR1 from "../../public/cource/graphic-design.jpg";
+import CM1a1 from "../../public/cource/content-marketing.jpg";
+import PVE1 from "../../public/cource/professional-video-editing.jpg";
+import PC1 from "../../public/cource/podcast-creation.jpg";
+import AC1 from "../../public/cource/advertising-campaign.jpg";
+import PMC1 from "../../public/cource/performance-marketing.jpg";
+import PD1 from "../../public/cource/personality-development.jpg";
+import SM1 from "../../public/cource/search-engine-marketing.jpg";
+
 export const navLinks = [
   { id: "home", label: "Home" },
   { id: "about", label: "About Us" },
   { id: "courses", label: "Courses" },
   { id: "services", label: "Services" },
   { id: "tech", label: "Technology" },
-  { id: "contact", label: "Contact" },
 ];
 
 export const aboutData = {
@@ -60,40 +79,32 @@ export const servicesData = {
     "We offer a comprehensive range of digital marketing services to help businesses grow their online presence.",
   services: [
     {
-      icon: "Globe",
-      title: "SEO Optimization",
-      description:
-        "Improve your website's visibility in search engines and drive organic traffic.",
-    },
-    {
-      icon: "BarChart2",
+      icon: Icon1,
       title: "Social Media Marketing",
       description:
-        "Build your brand presence and engage with your audience on social platforms.",
+        "Boost your brand’s presence on social media platforms with targeted campaigns that engage and convert.",
+      link: "#",
     },
     {
-      icon: "Code",
-      title: "Web Development",
+      icon: Icon2,
+      title: "SEO",
       description:
-        "Create responsive, user-friendly websites that convert visitors into customers.",
+        "Improve your website’s visibility on search engines and attract organic traffic with our SEO expertise.",
+      link: "#",
     },
     {
-      icon: "Mail",
-      title: "Email Marketing",
+      icon: Icon3,
+      title: "Website Development",
       description:
-        "Design effective email campaigns to nurture leads and boost conversions.",
+        "Create a stunning, user-friendly website that reflects your brand’s identity and converts visitors into customers.",
+      link: "#",
     },
     {
-      icon: "Database",
-      title: "Content Marketing",
+      icon: Icon4,
+      title: "Graphic Design",
       description:
-        "Develop engaging content strategies that resonate with your target audience.",
-    },
-    {
-      icon: "Cpu",
-      title: "PPC Advertising",
-      description:
-        "Maximize ROI with targeted pay-per-click advertising campaigns.",
+        "Elevate your brand’s visual identity with professional graphic design services that captivate and inspire.",
+      link: "#",
     },
   ],
 };
@@ -104,12 +115,12 @@ export const coursesData = {
     "Comprehensive training programs designed to make you an expert in digital marketing.",
   courses: [
     {
-      title: "Digital Marketing Fundamentals",
+      title: "Social Media  Management",
       duration: "4 Weeks",
       level: "Beginner",
       description:
         "Learn the basics of digital marketing including SEO, social media, and content marketing.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: SMM1,
     },
     {
       title: "Advanced SEO Mastery",
@@ -117,7 +128,7 @@ export const coursesData = {
       level: "Intermediate",
       description:
         "Deep dive into search engine optimization techniques to rank higher in search results.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: SEO1A1,
     },
     {
       title: "Social Media Marketing Pro",
@@ -125,7 +136,7 @@ export const coursesData = {
       level: "Intermediate",
       description:
         "Master the art of social media marketing across multiple platforms.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: WD1,
     },
     {
       title: "Content Marketing Strategy",
@@ -133,7 +144,7 @@ export const coursesData = {
       level: "All Levels",
       description:
         "Learn to create and distribute valuable content that attracts and engages your audience.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: GDR1,
     },
     {
       title: "PPC & Google Ads",
@@ -141,7 +152,7 @@ export const coursesData = {
       level: "Intermediate",
       description:
         "Create and optimize pay-per-click campaigns for maximum ROI.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: CM1a1,
     },
     {
       title: "Digital Marketing Certification",
@@ -149,7 +160,7 @@ export const coursesData = {
       level: "All Levels",
       description:
         "Comprehensive program covering all aspects of digital marketing with certification.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: PVE1,
     },
   ],
 };
@@ -237,7 +248,6 @@ export const footerData = {
     "PPC & Google Ads",
   ],
 };
-
 
 export const Webtechnologies = [
   {

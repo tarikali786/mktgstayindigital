@@ -20,13 +20,7 @@ export default function Testimonials() {
             <div key={index} className="border-none shadow-md rounded-xl">
               <div className="p-6">
                 <div className="flex items-center mb-4">
-                  <Image
-                    src={testimonial.image || "/placeholder.svg"}
-                    alt={testimonial.name}
-                    width={60}
-                    height={60}
-                    className="rounded-full mr-4"
-                  />
+                  
                   <div>
                     <h3 className="font-bold text-gray-800">{testimonial.name}</h3>
                     <p className="text-sm text-gray-600">
