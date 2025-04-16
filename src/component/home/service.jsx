@@ -36,7 +36,7 @@ export default function Services() {
               >
                 <div className="p-6 text-center">
                   <div className="bg-blue-50 size-16 rounded-full inline-block mb-4 relative">
-                    <Image src={service.icon} className=" object-fill" fill />
+                    <Image src={service.icon} alt="test" className=" object-fill" fill />
                   </div>
                   <h3 className="text-xl font-bold mb-2 text-black/80">
                     {service.title}

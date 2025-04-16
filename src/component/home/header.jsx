@@ -51,7 +51,7 @@ export default function Header({ scrollToSection }) {
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="text-gray-700 hover:text-blue-600"
+                className="text-gray-700 hover:text-blue-600  cursor-pointer"
               >
                 {link.label}
               </button>

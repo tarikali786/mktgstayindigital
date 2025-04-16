@@ -50,60 +50,61 @@ export const navLinks = [
 export const aboutData = {
   title: "About Us",
   description:
-    "Stay in Digital is a premier digital marketing training institute dedicated to empowering individuals with cutting-edge skills for today's digital landscape.",
+    "Our courses cover everything, from essential tools to advanced SEO strategies, social media marketing, website development, and email marketing, content creation and more. Whether you start a career, updating your skills or starting your own business, we provide the knowledge and support you need to succeed.",
   mission:
-    "We aim to bridge the gap between theoretical knowledge and practical application in digital marketing. Our mission is to create industry-ready professionals who can excel in the ever-evolving digital world.",
+    "Stay in Digital is a premier digital marketing training institute dedicated to empowering individuals with cutting-edge skills for today's digital landscape.",
   features: [
     {
       icon: "Users",
-      title: "Expert Trainers",
-      description: "Learn from industry professionals with years of experience",
+      title: "Industry courses",
+      description:
+        "The latest market was designed with practices and updated regularly to reflect real world needs.",
     },
     {
       icon: "BookOpen",
-      title: "Practical Approach",
+      title: "Hands projects",
       description:
-        "Hands-on training with real-world projects and case studies",
+        "As you learn, create real expeditions, SEO strategies and material plans.",
     },
     {
       icon: "BarChart2",
-      title: "Career Support",
-      description: "Placement assistance and career guidance for all students",
+      title: "Expert mentor",
+      description:
+        "Trains under professionals with years of practical experience in the digital marketing world.",
     },
   ],
 };
 
 export const servicesData = {
   title: "Our Services",
-  description:
-    "We offer a comprehensive range of digital marketing services to help businesses grow their online presence.",
+  description: "Main modules we",
   services: [
     {
       icon: Icon1,
       title: "Social Media Marketing",
       description:
-        "Boost your brand’s presence on social media platforms with targeted campaigns that engage and convert.",
+        "Learn how to create engaging content and run high performance campaigns on platforms like Facebook, Instagram and LinkedIn.",
       link: "#",
     },
     {
       icon: Icon2,
       title: "SEO",
       description:
-        "Improve your website’s visibility on search engines and attract organic traffic with our SEO expertise.",
+        "Master the art of optimizing sites to classify higher in research mechanisms and boost organic traffic.",
       link: "#",
     },
     {
       icon: Icon3,
       title: "Website Development",
       description:
-        "Create a stunning, user-friendly website that reflects your brand’s identity and converts visitors into customers.",
+        "Create beautiful and responsive sites using WordPress and code tools adapted to marketing success.",
       link: "#",
     },
     {
       icon: Icon4,
       title: "Graphic Design",
       description:
-        "Elevate your brand’s visual identity with professional graphic design services that captivate and inspire.",
+        "Get design with design tools to create attractive visuals, ads and branding actives.",
       link: "#",
     },
   ],
@@ -182,32 +183,30 @@ export const techData = {
 };
 
 export const testimonialsData = {
-  title: "What Our Students Say",
+  title: "Listen to our students",
   description:
     "Hear from our students who have transformed their careers with our training programs.",
   testimonials: [
     {
-      name: "Priya Sharma",
-      role: "Digital Marketing Specialist",
-      company: "TechCorp",
+      name: "Riya Menon",
+      role: "Freelancer",
       testimonial:
-        "The digital marketing course at Stay in Digital completely transformed my career. The hands-on approach and expert guidance helped me land my dream job.",
+        "This training helped me unload my first freelance client within two months. SEO and content were strategies game-changes!",
       image: "/placeholder.svg?height=100&width=100",
     },
     {
-      name: "Rahul Verma",
-      role: "SEO Consultant",
-      company: "WebSolutions",
+      name: "Arjun Sharma",
+      role: "Entrepreneur",
       testimonial:
-        "I was struggling with SEO concepts until I joined Stay in Digital. Their practical approach and real-world examples made complex topics easy to understand.",
+        "Staying in digital gave me confidence and clarity. I infected from a beginning to handle digital campaigns for my family business.",
+
       image: "/placeholder.svg?height=100&width=100",
     },
     {
-      name: "Ananya Patel",
-      role: "Social Media Manager",
-      company: "CreativeMinds",
+      name: "Fatima Khan",
+      role: "Digital Marketing Executive",
       testimonial:
-        "The social media marketing course was comprehensive and up-to-date. I'm now managing campaigns for major brands thanks to the skills I learned here.",
+        "Great course and magnificent instructor! Social media marketing module was worth it alone.",
       image: "/placeholder.svg?height=100&width=100",
     },
   ],

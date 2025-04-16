@@ -23,13 +23,14 @@ export default function Hero({ scrollToSection }) {
         <div className="max-w-xl">
           {/* Heading */}
           <h2 className="sm:text-2xl text-xl md:text-4xl font-bold text-white sm:mb-4 mb-2">
-            BECOME A DIGITAL MARKETING EXPERT
+            We enable careers with practical digital marketing training.
           </h2>
 
           {/* Description */}
           <p className="text-gray-100 md:my-8 sm:my-3 my-2 text-sm sm:text-[16px] ">
-            Ready to take your Digital Marketing to the next level? Discover our
-            cutting-edge training programs and dominate from Zero to Hero.
+            At Stay in Digital, we will match students and professionals with
+            real -world digital marketing skills through practical training and
+            training training programs led by experts.
           </p>
 
           <div className="max-w-xl">

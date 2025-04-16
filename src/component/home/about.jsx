@@ -30,7 +30,7 @@ export default function About() {
             </h3>
             <p className="text-gray-600 mb-6">{aboutData.mission}</p>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Why Choose Us?
+            Why learn with us?
             </h3>
             <ul className="space-y-3">
               {aboutData.features.map((feature, index) => {
